@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:id="@+id/constraintLayout">
+        <ImageView
+            android:src="@drawable/bg"
+            android:layout_width="575dp"
+            android:layout_height="200dp"
+            android:id="@+id/imageView"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="0dp" />
+        <TextView
+            android:text="喜欢雨天的我"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            tools:layout_editor_absoluteX="271dp"
+            tools:layout_editor_absoluteY="200dp"
+            android:layout_marginBottom="56dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="242dp"
+            android:layout_marginStart="242dp"
+            android:textColor="@color/cardview_light_background"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="生活一半记忆,一半继续."
+            android:textSize="10sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_alignStart="@+id/textView"
+            android:layout_marginBottom="24dp"
+            android:id="@+id/textView2"
+            android:textColor="@color/cardview_light_background"
+            />
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer"
+    tools:context="com.example.houshuai.myandroid60widget.MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+<!--//主界面-->
+    <include layout="@layout/first_activity"/>
+<!--抽屉界面-->
+   <android.support.design.widget.NavigationView
+       android:id="@+id/ngv_slide"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_gravity="start"
+
+
+       app:headerLayout="@layout/draw_heart"
+       app:menu="@menu/draw_menu"
+       />
+
+
+</android.support.v4.widget.DrawerLayout>
+

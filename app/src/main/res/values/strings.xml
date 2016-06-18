@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MyAndroid6.0Widget</string>
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+    <string-array name="Bottom_title">
+        <item>新闻</item>
+        <item>娱乐</item>
+        <item>直播</item>
+        <item>个人信息</item>
+    </string-array>
+    <string-array name="Top_title">
+        <item>国内</item>
+        <item>军事</item>
+        <item>社会</item>
+        <item>本地</item>
+        <item>节气</item>
+        <item>海外</item>
+        <item>旅游</item>
+        <item>魔兽</item>
+    </string-array>
+</resources>
